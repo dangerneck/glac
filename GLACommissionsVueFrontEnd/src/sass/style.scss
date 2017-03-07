@@ -1,0 +1,41 @@
+// Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap-flex";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+
+    label{
+        font-size: 1.3em;
+    }
+}
+
+.cov-datepicker{
+    @extend .form-control
+}
+.date-picker{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.cov-date-body{
+    font-family: inherit !important;
+}
+
+header{
+  margin-bottom: 80px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: center;
+  background-image: url(https://s3-ap-southeast-2.amazonaws.com/data.gabbylovesart.com/images/background-paint.png);
+  background-size: cover;
+  background-position: center 39%;
+  min-height: 192px;
+  .banner{
+    img{
+      max-height: 180px;
+      min-height: 120px;
+    }
+  }
+}
